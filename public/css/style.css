@@ -1,0 +1,166 @@
+body {
+  color: #ffffff;
+  font-family: "Comfortaa";
+}
+
+.disp-2 {
+  font-family: "Abril+Fatface", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.disp-4 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.disp-7 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 2.1rem;
+}
+
+.text-black {
+  color: #202020 !important;
+}
+
+.menu .navbar-brand .navbar-caption {
+  line-height: inherit !important;
+}
+
+.menu .nav-item:focus,
+.menu .nav-link:focus {
+  outline: none;
+}
+
+.menu .navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+
+.navbar {
+  border-bottom: 1px #0a4647;
+  background: #116466;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.main {
+  height: 500px;
+  background-image: url("/images/tinyhouse.png");
+  background-color: #daf0ea;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main h1 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.main .text-responsive {
+  font-size: calc(100% + 0.5vw + 1vh);
+}
+
+.main h1 {
+  text-shadow: 1px 1px #606061;
+}
+
+.content {
+  background: #ffffff;
+}
+
+.content img {
+  height: 150px;
+  width: 200px;
+}
+
+.content h4 {
+  font-weight: bold;
+}
+
+.content h4,
+.content p {
+  color: #202020;
+}
+
+.footer {
+  background: #2c3531;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.footerheader {
+  border-bottom: 1px #1f2523 solid;
+  background: #242c29;
+}
+
+.footerheader a:link {
+  color: #202020;
+}
+
+.footer a:link {
+  color: #d1e8e2;
+}
+
+.footer a:hover {
+  color: #d1e8e2;
+}
+
+.footer a:visited {
+  color: #d1e8e2;
+}
+
+.btn-search {
+  background-color: #0c4b4d;
+  border-color: #0c4b4d;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-search:hover {
+  background-color: #0c4b4d;
+  border-color: #0c4b4d;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-search:focus {
+  background-color: #0c4b4d;
+  border-color: #0c4b4d;
+  color: white;
+  font-weight: bold;
+}
+
+.maplisting h5 {
+  color: #202020;
+}
+
+.rentalinfo img {
+  height: 250px;
+  width: 300px;
+}
+
+#fixedbtn {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+h5.modal-title {
+  color: #202020;
+}
